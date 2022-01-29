@@ -1,0 +1,43 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   padding: 1rem;
+   font-family: 'Open Sans', sans-serif;
+   background-color: #f3f3f3;
+}
+
+h1 {
+   padding: 0.5em;
+   margin-bottom: 2rem;
+   text-align: center;
+   background-color: lightgreen;
+}
+h2 {
+   padding: 0.65em;
+   margin: 3rem 0 2rem;
+   background-color: lightgreen;
+}
+
+p {
+   margin: 0 1rem;
+   line-height: 200%;
+}
+
+ul {
+   display: block;
+   list-style-type: disc;
+   margin: 1rem;
+}
+
+li {
+   margin: 0.5rem 0 0 1.5rem;
+}
+
+code {
+   font-family: 'Fira Mono', monospace;
+   background-color: lightsteelblue;
+}
