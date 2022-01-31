@@ -59,6 +59,7 @@ span {
 
 footer {
    flex-shrink: 0;
+   margin-top: 3rem;
    padding: 0.75rem;
    text-align: center;
    font-size: 0.85rem;
