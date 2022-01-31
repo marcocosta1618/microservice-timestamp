@@ -12,6 +12,9 @@ If the request has no date field, the Unix and UTC of the current time is return
 
 Usage example:
 
-Input: https://timestamp-microservice-fcc.vercel.app/api/2022-1-28
+Input: https://timestamp-microservice-fcc.vercel.app **/api/2022-1-28**
 
 Output: `{ unix: 1643328000000, utc: "Fri, 28 Jan 2022 00:00:00 GMT" }`
+
+
+This API is hosted on [Vercel](https://timestamp-microservice-fcc.vercel.app/).
