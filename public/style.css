@@ -4,33 +4,42 @@
    padding: 0;
 }
 
+html, body {
+   height: 100%;  /* footer on page bottom with flexbox*/
+}
+
 body {
-   padding: 1rem;
+   display: flex;
+   flex-direction: column;
    font-family: 'Open Sans', sans-serif;
    background-color: #f3f3f3;
 }
 
+.content {
+   flex: 1 0 auto;
+}
+
 h1 {
    padding: 0.5em;
-   margin-bottom: 2rem;
+   margin: 1rem 1rem 2rem;
    text-align: center;
    background-color: lightgreen;
 }
 h2 {
    padding: 0.65em;
-   margin: 3rem 0 2rem;
+   margin: 3rem 1rem 2rem;
    background-color: lightgreen;
 }
 
 p {
-   margin: 0 1rem;
+   margin: 0 2rem;
    line-height: 200%;
 }
 
 ul {
    display: block;
    list-style-type: disc;
-   margin: 1rem;
+   margin: 1rem 2rem;
 }
 
 li {
@@ -40,4 +49,16 @@ li {
 code {
    font-family: 'Fira Mono', monospace;
    background-color: lightsteelblue;
+}
+
+span {
+   background-color: #b2eeb2;
+}
+
+footer {
+   flex-shrink: 0;
+   padding: 0.75rem;
+   text-align: center;
+   font-size: 0.85rem;
+   background-color: #d3d3d3;
 }

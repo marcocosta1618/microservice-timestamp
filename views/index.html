@@ -9,36 +9,43 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Open+Sans&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="/public/style.css">
+   <link rel="icon" type="image/png" href="/public/icons8-code-64.png">
    <title>Timestamp Microservice</title>
 </head>
 
 <body>
-   <h1>Timestamp Microservice</h1>
-   <p>A microservice that, when requested with a valid date (<a
-         href="https://tc39.es/ecma262/#sec-date-time-string-format" target="_blank">date time string</a> format), or
-      with a unix timestamp returns an
-      object made of:</p>
-   <ul>
-      <li>a <code>unix</code> key with the Unix timestamp of the input in milliseconds as the value, and</li>
-      <li>a <code>utc</code> key with the UTC of the input as the value.</li>
-   </ul>
-   <p>If the request has no date field, the Unix and UTC of the current time is returned.</p>
-   <h2>Usage example:</h2>
-   <p>
-      <strong>Input:</strong>
-      <a href="https://timestamp-microservice-marcocosta1618.vercel.app//api/2022-1-28">
-         https://timestamp-microservice-fcc.vercel.app/<strong>api/2022-1-28</strong>
-      </a>
-   </p>
-   <p>
-      <strong>Output:</strong>
-      <code>
+   <div class="content">
+      <h1>Timestamp Microservice</h1>
+      <p>A microservice that, when requested with a valid date (<a
+            href="https://tc39.es/ecma262/#sec-date-time-string-format" target="_blank">date time string</a> format), or
+         with a unix timestamp returns an
+         object made of:</p>
+      <ul>
+         <li>a <code>unix</code> key with the Unix timestamp of the input in milliseconds as the value, and</li>
+         <li>a <code>utc</code> key with the UTC of the input as the value.</li>
+      </ul>
+      <p>If the request has no date field, the Unix and UTC of the current time is returned.</p>
+      <h2>Usage example:</h2>
+      <p>
+         Input:
+         <a href="https://timestamp-microservice-marcocosta1618.vercel.app//api/2022-1-28">
+            https://timestamp-microservice-fcc.vercel.app/<span>api/2022-1-28</span>
+         </a>
+      </p>
+      <p>
+         Output:
+         <code>
          {
             unix: 1643328000000,
             utc: "Fri, 28 Jan 2022 00:00:00 GMT"
          }
       </code>
-   </p>
+      </p>
+   </div>
+   <footer>
+      <p>Marco Costa 2022. <a target="_blank" href="https://icons8.com/icon/43988/code">Code</a> icon by <a
+            target="_blank" href="https://icons8.com">Icons8</a></p>
+   </footer>
 </body>
 
 </html>
