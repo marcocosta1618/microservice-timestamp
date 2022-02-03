@@ -7,7 +7,8 @@ const cors = require('cors');
 app.use(cors({ optionsSuccessStatus: 200 }));
 
 // static assets
-app.use('/public', express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public'));
+
 // initial page
 app.get('/', (req, res) => {
    res.sendFile(__dirname + '/views/index.html')
