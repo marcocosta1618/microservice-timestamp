@@ -20,6 +20,8 @@ Output: `{ unix: 1643328000000, utc: "Fri, 28 Jan 2022 00:00:00 GMT" }`
 This API is hosted on [Vercel](https://timestamp-microservice-fcc.vercel.app/).
 
 ![EXPRESS](https://img.shields.io/badge/Express.js-fff.svg?&logo=Express&logoColor=000)&nbsp;
+![HTML5](https://img.shields.io/badge/HTML5-red.svg?&logo=html5&logoColor=white)&nbsp;
+![CSS3](https://img.shields.io/badge/CSS3-blue.svg?&logo=css3&logoColor=white)&nbsp;
 
 ---
 
