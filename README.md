@@ -3,7 +3,7 @@
 
 A microservice made in Express.js, first Back End and API project from the freeCodeCamp curriculum.
 
-When requested with a valid date (date time string format), or with a unix timestamp, it returns an object made of:
+When requested with a valid date (date time string format), or with a unix timestamp, it returns a json made of:
 
 - a `unix` key with the Unix timestamp of the input in milliseconds as the value, and
 - a `utc` key with the UTC of the input as the value.
